@@ -85,7 +85,55 @@
             background-color: #38bdf8;
         }
 
-        /* Hero Section */
+        /* SOP Section */
+        #SOP {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-height: 100vh;
+            padding-top: 0;
+        }
+
+        .SOP-text pre-title {
+            color: #38bdf8;
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        .SOP-text h1 {
+            font-size: 3.5rem;
+            margin: 0.5rem 0;
+            color: #f1f5f9;
+        }
+
+        .SOP-text h2 {
+            font-size: 2.2rem;
+            color: #94a3b8;
+            margin-bottom: 1.5rem;
+        }
+
+        .SOP-text p {
+            max-width: 600px;
+            font-size: 1.1rem;
+            color: #94a3b8;
+            margin-bottom: 2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #38bdf8;
+            color: #0f172a;
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #0ea5e9;
+        }
+
+            /* Hero Section */
         #hero {
             display: flex;
             flex-direction: column;
@@ -132,7 +180,7 @@
         .btn:hover {
             background-color: #0ea5e9;
         }
-
+        
         /* Projects Section */
         .project-grid {
             display: grid;
@@ -234,9 +282,10 @@
 
     <header>
         <nav>
-            <div class="logo">Phurada.</div>
+            <div class="logo">Phurada P.</div>
             <ul class="nav-links">
                 <li><a href="#hero">Home</a></li>
+                <li><a href="#SOP">SOP</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#about">About</a></li>
             </ul>
@@ -246,13 +295,22 @@
     <section id="hero">
         <div class="hero-text">
             <span style="color: #38bdf8; font-weight: 600;">Hi, my name is</span>
-            <h1>Phurada</h1>
-            <h2>I build digital experiences.</h2>
+            <h1>Phurada Phimngam</h1>
+            <h2>ครูผู้สอน รายวิชาเทคโนโลยี.</h2>
             <p>I am a developer/designer specializing in building exceptional digital experiences. Currently, I'm focused on creating accessible, human-centered products.</p>
             <a href="#projects" class="btn">View My Work</a>
         </div>
     </section>
 
+    <section id="SOP">
+        <div class="SOP-text">
+            <span style="color: #38bdf8; font-weight: 600;">Hi, my name is</span>
+            <h1>Phurada Phimngam</h1>
+            <h2>ครูผู้สอน รายวิชาเทคโนโลยี.</h2>
+            <p>I am a developer/designer specializing in building exceptional digital experiences. Currently, I'm focused on creating accessible, human-centered products.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
     <section id="projects">
         <h2 class="section-title">Featured Projects</h2>
         <div class="project-grid">
